@@ -2,10 +2,10 @@
 {
 
  "Account": {
-     "Username": "wongnu",
-     "Password": "o0xd4n4"
+     "Username": "x",
+     "Password": "x"
      },
- "Target Profit": "1000",
+ "Target Profit": "100",
  "Target Win": "1000",
  "Lose Target": "1000",
  "Reset If Target Profit": "OFF",
@@ -14,13 +14,13 @@
  "Config": [{
 
      "Name Bet Set": "1⃣ Mining Chance 80 ‰",
-     "Base Bet": "0.01",
+     "Base Bet": "0.001",
      "Max Bet": "ON",
-     "Chance": "39",
+     "Chance": "75",
      "Random Chance": {
           "Toggle": "ON",
-          "Min": "39",
-          "Max": "39.9"
+          "Min": "10",
+          "Max": "15"
         },
      "Bet": {
           "Bet": "Hi",
@@ -30,11 +30,11 @@
               "If Win": "3"
             }
         },
-     "If Win": "1.25",
-     "If Lose": "1.777",
+     "If Win": "1",
+     "If Lose": "1.2",
      "Reset If Win":"1",
-     "Reset If Profit": "OFF",
-     "Interval": "0"
+     "Reset If Profit": "ON",
+     "Interval": "1"
      },{
 
      "Name Bet Set": "2 - Mining Chance 45 %",
